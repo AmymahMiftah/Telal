@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" >
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>TELALGROUP</title>
+  <meta name="title" content="TelalRestaurant">
+  <meta name="description" content="This is a Restaurant template made by AmymahMiftah">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Cairo&family=Tajawal&family=Changa&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">TELALGROUP</p>
+  </div>
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <a href="https://maps.app.goo.gl/K5yidDNRRG2AChYQ6" class="icon icon-color" target="_blank" rel="noopener noreferrer">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+
+        <span class="span">
+          الوسيظة البيضاء
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon icon-color">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">  ساعات العمل من 10:00 صباحا الى 11:00 مساءا</span>
+
+      </div>
+
+      <div class = "topbar-item  tels" >
+        <div class="icon icon-color">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <a href="tel:0925571022" class="link">
+          <span class="span">092-5571022</span>
+        </a>
+      </div>
+
+      <div class="separator"></div>
+
+
+    </div>
+  </div>
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container" style="height: 40px;">
+
+      <a href="index.html" class="logo desk">
+
+        <img src="./assets/images/logo3.png" class = "main-logo" alt="SteakHouse">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo3.png"   alt="SteakHome">
+        </a>
+
+        <ul class="navbar-list" dir = 'rtl'>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span arabic-text">الصفحة الرئسية</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="main.html" class="navbar-link hover-underline " >
+              <div class="separator"></div>
+              <span class="span arabic-text">الوجبات الرئسية</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="backing.html" class="navbar-link hover-underline" >
+              <div class="separator"></div>
+
+              <span class="span arabic-text">المخبوزات</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="drinks.html" class="navbar-link hover-underline active" >
+              <div class="separator"></div>
+
+              <span class="span arabic-text">المشروبات</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">زرونا</p>
+
+          <address style="display: inline-flex;">
+            
+            <span class="span body-4">
+                الوسيطة البيضاء
+            </span>
+            <a href="https://maps.app.goo.gl/K5yidDNRRG2AChYQ6" style = "color:hsl(0, 100%, 34%)" class="icon icon-color body-1 " target="_blank" rel="noopener noreferrer">
+              <ion-icon name="location-outline" class = "location-icon" aria-hidden="true"></ion-icon>
+            </a>
+          </address>
+
+          <p class="menu-text text-center" dir="rtl">
+            ساعات العمل <span class="span">10:00 صباحا </span> الى <span class="span">11:00 مساءا</span>
+          </p>
+
+          <div class="tels" style="display: inline-flex;">
+            <a href="tel:0925571022" class="body-3 contact-number hover-underline">
+              092-5571022
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+<!--Main-->
+
+  <main class = 'main-menu'>
+    <article>
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container" lang="ar" dir="rtl">
+
+          <p class="section-subtitle text-center headline-3 arabic-text" style="color: aliceblue;"> استمتع بأشهى المأكولات</p>
+
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Greek Salad</a>
+                    </h3>
+
+                    <span class="span title-2">$25.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagne</a>
+                    </h3>
+
+                    <span class="span title-2">$40.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Butternut Pumpkin</a>
+                    </h3>
+
+                    <span class="span title-2">$10.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Wagyu</a>
+                    </h3>
+
+                    
+
+                    <span class="span title-2">$39.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Olivas Rellenas</a>
+                    </h3>
+
+                    <span class="span title-2">$25.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Opu Fish</a>
+                    </h3>
+
+                    <span class="span title-2">$49.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center" dir="rtl">
+            ساعات العمل <span class="span">10:00 صباحا </span> الى <span class="span">10:00 مساءا</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1 arabic-text">القائمة الرئسية</span>
+
+            <span class="text text-2 arabic-text" aria-hidden="true">القائمة الرئسية</span>
+          </a>
+
+        </div>
+      </section>
+    
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+   <footer class="footer section text-center sub-pages">
+    <div class="container">
+      
+        <p class="copyright label-3">
+          &copy; 2025 <span style="  color:hsl(36, 96%, 46%)"> &nbsp;TELAL GROUP</span>. All Rights Reserved
+            
+        </p>
+    </div>
+  </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
